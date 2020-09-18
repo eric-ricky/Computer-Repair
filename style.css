@@ -89,6 +89,10 @@ p.line {
 /* ----------------- SHOWCASE  -----------------  */
 .showcase {
     overflow: hidden;
+    background: linear-gradient(rgba(2, 1, 61, 0.5), rgba(0,0,0,0.5)),
+    url('img/pexels-josh-sorenson-1714208.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .showcase .container-fluid {
     position: relative;
@@ -128,6 +132,7 @@ p.line {
     position: absolute;
     top: 0;
     left: 0;
+    /* display: none; */
 }
 
 @media only screen and (max-width: 760px) {
@@ -136,6 +141,9 @@ p.line {
     }
     .showcase .showcase-text h1 {
         font-size: 1.7rem;
+    }
+    .showcase video {
+        display: none;
     }
 }
 /* END */
