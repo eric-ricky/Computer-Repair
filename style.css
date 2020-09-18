@@ -315,6 +315,9 @@ footer p {
     color: #ccc;
     font-size: 1.2rem;
 }
+footer .links {
+    text-align: center;
+}
 footer .links div {
     display: flex;
     flex-flow: column;
@@ -329,5 +332,10 @@ footer .social .fa {
 footer hr {
     background: var(--mainWhite);
     margin-top: 2rem;
+}
+@media only screen and (max-width: 760px) {
+    footer .links {
+        text-align: start;
+    }
 }
 /* END */
